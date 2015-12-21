@@ -1,0 +1,257 @@
+/* Staff Grid
+--------------------- */
+
+body.archive article.staff-member {
+	padding:5px;
+}
+
+.sbg_contactinfo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.sbg_contactinfo .genericon {
+	font-size:18px;
+	margin-left:3px;
+}
+
+body .sbg_contactinfo a {
+	color:white;
+	border:none;
+	text-decoration:none;
+	transition:opacity .4s ease-in-out;
+}
+
+body .sbg_contactinfo a:hover {
+	color:rgba(255,255,255,0.6);
+}
+
+.sbg_clear {
+	clear:both;
+	width:100%;
+	display:block;
+	height:0px;
+	margin:0px;
+	padding:0px;
+}
+
+body.page article.entry.staff-member.type-staff-member {
+	padding:0px;
+	position:relative;
+}
+
+#TB_ajaxContent {
+	padding: 10px 25px 0px 25px !important;
+	margin-right: 0px !important;
+	width: auto !important;
+}
+
+#TB_ajaxContent p {
+	padding: 0px;
+	margin: 0px 0px 5px;
+}
+
+.staff-section-title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+img.alignleft, img.alignright, img.aligncenter {
+	margin-top:5px;
+}
+
+
+.staff-grid-archive .content .entry-title,
+.staff-profile .entry-title,
+body.page .staff-member.type-staff-member .entry-title {
+	font-size:18px;
+	line-height:1.2em;
+}
+
+.staff-grid-archive .content .entry-header,
+.staff-profile {
+	position: relative;
+}
+ 
+.staff-featured-image img {
+	vertical-align: top;
+	/*width: 100%;*/
+}
+ 
+.title-meta {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	color: white;
+	font-size: 13px;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+ 
+.staff-grid-archive .content .entry-title,
+.staff-profile .entry-title,
+body.page .staff-member.type-staff-member .entry-title {
+	margin-bottom: 0px;
+	line-height: 1;
+}
+ 
+.staff-grid-archive .content .entry-title a,
+.staff-profile .entry-title a,
+.staff-member.type-staff-member .entry-title a {
+	color: #fff;
+	border:none;
+}
+
+.staff-grid-archive .content .entry-title a:hover ,
+.staff-profile .entry-title a:hover ,
+.staff-member.type-staff-member .entry-title a:hover {
+	color:rgba(255,255,255,0.6);
+}
+
+body.page p.entry-meta {
+	display:none;
+}
+ 
+.staff-grid-archive .content p.entry-meta,
+.staff-profile p.entry-meta,
+body.page article.staff-member .title-meta p.entry-meta {
+	color: #bbb;
+	text-transform: none;
+	font-size: 13px;
+	margin-bottom: 0;
+	display:block;
+	line-height:1.3em;
+}
+ 
+.staff-grid-archive .content p.entry-meta a,
+.staff-profile p.entry-meta a,
+body.page .staff-member p.entry-meta a {
+	color: #fff;
+}
+
+.staff-grid-archive .content p.entry-meta a:hover,
+.staff-profile p.entry-meta a:hover,
+body.page .staff-member p.entry-meta a:hover {
+	color:rgba(255,255,255,0.7);
+}
+ 
+.archive-pagination {
+	clear: both;
+}
+ 
+.lightbox-content {
+	padding: 20px;
+	line-height: 1.4;
+}
+ 
+.previous-post-link {
+	float: left;
+}
+ 
+.next-post-link {
+	float: right;
+}
+ 
+.featured-content .one-half,
+.featured-content .one-third,
+.featured-content .one-fourth,
+.featured-content .one-fifth,
+.featured-content .one-sixth {
+	width: 100%;
+	float: none;
+	margin: 0;
+}
+
+.staff-member .post-edit-link {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 0px;
+	font-size: 12px;
+	color: white;
+	border-bottom: 1px dotted white;
+}
+
+.staff-member .post-edit-link:hover {
+	color:rgba(255,255,255,0.6);
+	border-color:rgba(255,255,255,0.6);
+}
+}
+ 
+@media only screen and (max-width: 1023px) {
+ 
+	.staff-grid-archive .content .entry-title,
+	.staff-profile .entry-title {
+		font-size: 25px;
+	}
+ 
+	.title-meta {
+		padding: 10px;
+	}
+
+	body.page .staff-member.type-staff-member .entry-title {
+		font-size:16px;
+	}
+ 
+}
+ 
+@media only screen and (max-width: 860px) {
+ 
+	.staff-grid-archive .content .entry {
+		width: 45%;
+		margin-right: 40px;
+	}
+ 
+	.staff-grid-archive .content .entry:nth-of-type(2n) {
+		margin-right: 0;
+		clear: none;
+	}
+ 
+	.title-meta {
+		position: static;
+		background: transparent;
+	}
+ 
+	.staff-grid-archive .content .entry-title a,
+	.staff-profile .entry-title a,
+	.staff-grid-archive .content p.entry-meta a,
+	.staff-profile p.entry-meta a,
+	body.page .staff-member p.entry-meta a,
+	body.page .staff-member p.entry-meta a,
+	body.page .staff-member.type-staff-member .entry-title a {
+		color: #333;
+	}
+ 
+	.staff-grid-archive .entry {
+		margin-bottom: 30px;
+	}
+ 
+}
+
+@media only screen and (max-width: 800px) {
+	body.page article.entry.staff-member.type-staff-member {
+		width: 48%;
+		margin-right: 2%;
+	}
+
+	body.page article.entry.staff-member.type-staff-member .title-meta {
+		padding:5px 0px 15px;
+	}
+}
+ 
+@media only screen and (max-width: 532px) {
+ 
+	.staff-grid-archive .content .entry {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.staff-featured-image img {
+		width: 100%;
+	}
+ 
+}
