@@ -11,7 +11,7 @@ database.yml
 ehthumbs.db
 Thumbs.db
 
-# Wordpress files #
+# WordPress files #
 ###################
 .htaccess
 xmlrpc.php

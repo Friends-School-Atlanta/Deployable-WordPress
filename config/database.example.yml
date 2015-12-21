@@ -1,15 +1,15 @@
 production:
   host: localhost
-  database: db_name
-  username: db_user
-  password: 'db_pass'
+  database: wordpress_fsa
+  username: wp
+  password: 'wp'
 staging:
   host: localhost
-  database: db_name
-  username: db_user
-  password: 'db_pass'
+  database: friendss_staging_wp
+  username: friendss_stage_u
+  password: '}eq*X*J==Uls'
 local:
   host: localhost
-  database: db_name
-  username: root
-  password: 'root'
+  database: friendss_production_wp
+  username: friendss_prod_u
+  password: 'a%(tt1qW5;L#'
