@@ -1,5 +1,5 @@
 # Deployable-WordPress
-A Deployable Version of the site code
+A Deployable Version of the site code used for the new Friends School of Atlanta website. 
 
 ### Release History
 0.2.2
