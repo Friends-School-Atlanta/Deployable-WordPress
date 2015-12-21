@@ -20,6 +20,7 @@ set :branch, "development"
 #specify extra ssh options:
 SSHKit.config.command_map[:git] = '/usr/local/cpanel/3rdparty/bin/git'
 SSHKit.config.command_map[:wp] = '/home/friendsschoolatb/wp'
+SSHKit.config.command_map[:find] = '/bin/find'
 
 #set :ssh_options, {
 #    auth_methods: %w(password),
