@@ -2,6 +2,8 @@ namespace :wp do
 
   task :set_permissions do
     on roles(:app) do
+      execute :find, '/home/friendsschoolatb/public_html/production/current -type d -exec chmod 755 {} \;'
+      execute :find, '/home/friendsschoolatb/public_html/production/current -type f -exec chmod 644 {} \;'
       execute :chmod, "666 #{shared_path}/.htaccess"
       execute :chmod, "-R 777 #{shared_path}/content/uploads"
     end
