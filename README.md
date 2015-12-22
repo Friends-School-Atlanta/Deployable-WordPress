@@ -4,6 +4,11 @@ This is our production WordPress application, complete with capistrano deploymen
 
 ### Release History
 
+```0.2.6```
+Adds Google Calendar sync capability
+Adds Backup to Dropbox
+Adds Document Revisions
+
 ```0.2.5```
 Adds ability to do CSV upload
 
