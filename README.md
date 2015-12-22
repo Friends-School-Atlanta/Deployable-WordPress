@@ -4,6 +4,9 @@ This is our production WordPress application, complete with capistrano deploymen
 
 ### Release History
 
+```0.2.5```
+Adds ability to do CSV upload
+
 ```0.2.4```
 Adds Google Apps Oauth capability
 
