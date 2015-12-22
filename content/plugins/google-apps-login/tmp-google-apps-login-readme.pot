@@ -1,0 +1,569 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Short description.
+msgid ""
+"Simple secure login and user management for Wordpress through your Google Apps domain \n"
+"(uses secure OAuth2, and MFA if enabled)"
+msgstr ""
+
+#. Screenshot description.
+msgid "User login screen can work as normal or via Google's authentication system"
+msgstr ""
+
+#. Screenshot description.
+msgid "Admin obtains two simple codes from Google to set up - easy instructions to follow"
+msgstr ""
+
+#. Found in description header.
+msgid "Support and Premium features"
+msgstr ""
+
+#. Found in description header.
+msgid "Extensible Platform"
+msgstr ""
+
+#. Found in description header.
+msgid "Requirements"
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr ""
+
+#. Found in description header.
+msgid "Website and Upgrades"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Apps for Work"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Apps for Business"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Apps for Education"
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Apps for Non-profits"
+msgstr ""
+
+#. Found in description list item.
+msgid "Personal gmail.com and googlemail.com emails"
+msgstr ""
+
+#. Found in description list item.
+msgid "English - default"
+msgstr ""
+
+#. Found in description list item.
+msgid "French (fr_FR) - translated by Lucien Ntumba of <a href=\"http://gpcsolutions.fr/\">GPC.solutions</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spanish (es_ES) - translated by David Perez of <a href=\"https://www.closemarketing.es/\">Closemarketing</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Danish (da_DK) - translated by Alexander Leo-Hansen of <a href=\"http://alexanderleohansen.dk/\">alexanderleohansen.dk</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Serbo-Croatian (sr_RS) - translated by Borisa Djuraskovic of <a href=\"http://www.webhostinghub.com/\">Web Hosting Hub</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Arabic (ar_SA) - translated by <a href=\"http://profiles.wordpress.org/jvarn13\">Jeremy Varnham</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ukrainian (uk_UA) - translated by Serj Kondrashov"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dutch (nl_NL) - translated by Noell Taravati of <a href=\"http://www.peppix.nl/\">Peppix</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Swedish (sv_SE) - translated by Johan Linde of <a href=\"http://syellen.se/\">S/Y ELLEN</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Italian (it_IT) translated by Giorgio Draghetti of <a href=\"http://tipinoncomuni.it/\">tipinoncomuni</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Apps Login allows existing Wordpress user accounts to login to your website using Google to securely authenticate their account. This means that if they are already logged into Gmail for example, they can simply click their way through the Wordpress login screen - no username or password is explicitly required!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Apps Login uses the latest <strong>secure OAuth2 authentication recommended by Google</strong>, including 2-factor Auth if enabled for your Google Apps accounts."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Plugin setup requires you to have admin access to any Google Apps domain, or a regular Gmail account, to register and obtain two simple codes from Google."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Full support and premium features are also available for purchase:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Eliminate the need for Google Apps domain admins to separately manage WordPress user accounts, and get peace\n"
+"of mind that only authorized employees have access to your organizations's websites and intranet."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>See <a href=\"http://wp-glogin.com/glogin/?utm_source=Login%20Readme%20Top&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">our website at wp-glogin.com</a> for more details.</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Premium version allows everyone in your Google Apps domain to login to WordPress - an account will be automatically created in WordPress if one doesn't already exist."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Our Enterprise version goes further, allowing you to specify granular access and role controls based on Google Group membership.\n"
+"You can also see logs of accounts created and roles changed by the plugin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "[youtube http://www.youtube.com/watch?v=wz9aN_4WaM8]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Google Apps Login allows you to centralize your site's Google functionality and build your own extensions, or use\n"
+"third-party extensions, which require no configuration themselves and share the same user authentication and \n"
+"permissions that users already allowed for Google Apps Login itself."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Using our platform, your website appears to Google accounts as one unified 'web application', making it more secure \n"
+"and easier to manage."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<a href=\"http://wp-glogin.com/wpgoogledriveembedder\">Google Drive Embedder</a> is a free extension plugin allowing \n"
+"users to browse for Google Drive documents to embed directly in their posts or pages."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<a href=\"http://wp-glogin.com/wpgoogleappsdirectory\">Google Apps Directory</a> is a free extension plugin allowing \n"
+"logged-in users to search your Google Apps employee directory from a widget on your intranet or client site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<a href=\"http://wp-glogin.com/avatars/?utm_source=Login%20Readme%20Avatars&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">Google Profile Avatars</a> \n"
+"is available on our website. It displays users' Google profile photos in place of their avatars throughout your site."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Google Apps Login works on single or multisite WordPress websites or private intranets."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "One-click login will work for the following domains and user accounts:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Google Apps Login uses the latest secure OAuth2 authentication recommended by Google. Other 3rd party authentication \n"
+"plugins may allow you to use your Google username and password to login, but they do not do this securely unless \n"
+"they also use OAuth2. This is discussed further in the <a href=\"http://wordpress.org/plugins/google-apps-login/faq/\">FAQ</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This plugin currently operates in the following languages:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"We are looking for volunteers to translate into their own language. If you would like to contribute a translation, please \n"
+"get in touch: contact@wp-glogin.com."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"Please see our website <a href=\"http://wp-glogin.com/?utm_source=Login%20Readme%20Website&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">http://wp-glogin.com/</a> for more information about this free plugin \n"
+"and extra features available in our Premium and Enterprise upgrades, plus support details, other plugins, and useful guides for admins of\n"
+"WordPress sites and Google Apps."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The <a href=\"http://wp-glogin.com/glogin/?utm_source=Login%20Readme%20PremEnt&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">Premium and Enterprise versions</a> eliminate the need to manage user accounts in your WordPress site - everything is synced from Google Apps instead."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"If you are building your organization's intranet on WordPress, try out our \n"
+"<a href=\"http://wp-glogin.com/intranet/?utm_source=Login%20Readme%20AIOI&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">All-In-One Intranet plugin</a>."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to your WordPress admin control panel's plugin page"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Search for 'Google Apps Login'"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Install"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click Activate on the plugin"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to 'Google Apps Login' under Settings in your Wordpress admin area"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Follow the instructions on that page to obtain two codes from Google, and also submit two URLs back to Google"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Follow the instructions from step 4 above"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To set up the plugin, you will need access to a Google Apps domain as an administrator, or just a regular Gmail account."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Easiest way:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If you cannot install from the WordPress plugins directory for any reason, and need to install from ZIP file:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid ""
+"Personalized instructions to configure the plugin by registering your site with Google Apps are linked from \n"
+"the WordPress admin panel once you have activated the plugin. For a (non-personalized) preview of these instructions \n"
+"please <a href=\"http://wp-glogin.com/installing-google-apps-login/basic-setup/\">click here</a>."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Removed a WordPress function that is deprecated in WP 4.4 - force_ssl_login\n"
+"This could have resulted in some visible warning messages."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Updated some URLs pointing to information about Premium/Enterprise upgrades.\n"
+"Readme updated."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Ready for WordPress 4.4.\n"
+"New translation strings for languages."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Opportunity to sign up for emails on Google Apps and WordPress, from settings page."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Service Account Client ID is imported from JSON key file so user can copy and paste it into admin.google.com"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Changed name of login cookie from 'google_apps_login' to 'wp_google_apps_login'."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Resolved conflict with some other plugins over Google-related function names."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "'Session mismatch' warning should be much less of a problem now."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Session mismatch (could be a problem setting cookies) should now occur less frequently. Service Account can have no admin email (for gmail.com accounts)."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Accepts filter gal_client_config_ini containing filesystem path to an INI file to supply to Google's client library on instantiation, so you can override settings.\n"
+"Added substitution version core/Google/IO/DebugVersionOfCurl.php to replace core/Google/IO/Curl.php temporarily to log communications to Google's server for debugging purposes."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Service Account settings can be uploaded by copy-and-paste of JSON file contents as well as just uploading the file directly."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Platform extended to provide Service Account settings."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Readme updates and tidied settings page."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New hooks for profile photos. Updated Google client library."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed conflicts with some other plugins such as Google Analyticator which use similar Google client libraries."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Better organized config pages."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Uses latest Google client library."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Option to link to wp-glogin.com from login page."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fix for an error seen on multisite admin. Added Arabic translation."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"New design to support multiple languages. Includes Serbo-Croatian. Fixed some conflicts \n"
+"with other plugins when used in 'auto redirect to Google' mode."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Our platform provides centralized setup and management of Google-related features in your \n"
+"WordPress site and plugins."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Other developers can easily extend our Google authentication into their own plugins."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Added clearer instructions, plus new options: automatically redirect users\n"
+"to Login via Google; plus force users to fully approve access to their\n"
+"Google account every time they login (allowing them to switch accounts if only\n"
+"logged into the wrong one, as well as making the process clearer)."
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Much neater support for redirecting users to most appropriate page post-login,\n"
+"especially on multisite installations; Better notices guiding admins through \n"
+"configuration"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Upgrade to match WordPress 3.8; \n"
+"More extensible code"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid ""
+"Increased security - uses an extra authenticity check; \n"
+"Better support for mal-configured Google credentials; \n"
+"No longer uses PHP-based sessions - will work on even more WordPress configurations"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "All existing versions are functionally identical - no need to upgrade."
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I obtain support for this product?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is login restricted to the Google Apps domain I use to set up the plugin?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin work with HTTP or HTTPS login pages?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin work on Multisite?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is it secure?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does it conflict with any other plugins?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How does it compare to other 3rd party auth plugins?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the system requirements?"
+msgstr ""
+
+#. Found in faq list item.
+msgid "PHP 5.2.x or higher with JSON extensions"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Wordpress 3.3 or above"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Full support is available if you purchase the appropriate license from the author via:\n"
+"<a href=\"http://wp-glogin.com/glogin/?utm_source=Login%20Readme%20Premium&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">http://wp-glogin.com/glogin/</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Please feel free to email <a href=\"mailto:contact@wp-glogin.com\">contact@wp-glogin.com</a> with any questions,\n"
+"as we may be able to help, but you may be required to purchase a support license if the problem\n"
+"is specific to your installation or requirements."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"We may occasionally be able to respond to support queries posted on the 'Support' forum here on the wordpress.org\n"
+"plugin page, but we recommend sending us an email instead if possible."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"No, once you set up the plugin, any WordPress accounts whose email address corresponds to <em>any</em> Google account, \n"
+"whether on a different Google Apps domain or even a personal gmail.com account, will be able to use 'Login with \n"
+"Google' to easily connect to your WordPress site."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"However, our <a href=\"http://wp-glogin.com/glogin/?utm_source=Login%20Readme%20FAQ&amp;utm_medium=freemium&amp;utm_campaign=Freemium\">premium plugin</a> has features that greatly simplify\n"
+"your WordPress user management if your WordPress users are mostly on the same Google Apps domain(s)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin will work whether your site is configured for HTTP or HTTPS."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"However, you may have configured your site to run so that the login pages \n"
+"can be accessed by <em>either</em> HTTP <em>or</em> HTTPS. In that case, you may run into problems. \n"
+"We recommend that you set <a href=\"http://codex.wordpress.org/Administration_Over_SSL\">FORCE_SSL_ADMIN</a> \n"
+"or at least FORCE_SSL_LOGIN to true. This will ensure that all users are consistently using HTTPS \n"
+"for login."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"You may then need to ensure the Redirect URL and Web Origin in the Google Cloud Console are\n"
+"set as HTTPS (this will make sense if you follow the installation instructions again)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If for some reason you cannot set FORCE_SSL_ADMIN, then instead you can add two URLs to the Google\n"
+"Cloud Console for each entry, e.g. Redirect URL = http://wpexample.com/wp-login.php, and\n"
+"then add another one for https://wpexample.com/wp-login.php. Same idea for Web Origin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"It is written, tested, and secure for multisite WordPress, both for subdirectories and subdomains, and <em>must</em> be activated\n"
+"network-wide for security reasons."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"There are many different possible configurations of multisite WordPress, however, so you must test carefully if you \n"
+"have any other plugins or special setup."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"In a multisite setup, you will see an extra option in Settings -&gt; Google Apps Login, named 'Use sub-site specific callback \n"
+"from Google'. Read details in the configuration instructions (linked from the Settings page). This setting will need to be \n"
+"ON if you are using any domain mapping plugin, and extra Redirect URIs will need to be registered in Google Cloud Console."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Yes, and depending on your setup, it can be much more secure than just using\n"
+"WordPress usernames and passwords."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"However, the author does not accept liability or offer any guarantee,\n"
+"and it is your responsibility to ensure that your site is secure in the way you require."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"In particular, other plugins may conflict with each other, and different WordPress versions and configurations\n"
+"may render your site insecure."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Sometimes conflicts can arise. We have built workarounds for some problems, and would always appreciate your feedback\n"
+"to resolve any issues you might encounter yourself."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"One known issue is with iThemes Security: the settings 'filter suspicious query strings' and 'filter long URL strings' can \n"
+"both cause intermittent conflicts and should be turned off if you are happy with the implications."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Jonradio Private Site - does not interact well with any Single-Sign-On plugins including Google Apps Login"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "WP Email Login - incompatible with Google Apps Login"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Google Apps Login uses the latest secure OAuth2 authentication recommended by Google. Other 3rd party authentication plugins \n"
+"may allow you to use your Google username and password to login, but they do not always do this securely:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Other plugins: Users' passwords may be handled by your blog's server, potentially unencrypted. If these are compromised,\n"
+"hackers would be able to gain access to your Google email accounts! This includes all \n"
+"<a href=\"http://www.google.com/enterprise/apps/business/products.html\">Google Apps</a> (Gmail, Drive, Calendar \n"
+"etc), and any other services which use your Google account to login."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"This plugin: Users' passwords are only ever submitted to Google itself, then Google is asked to authenticate the user to\n"
+"your WordPress site. This means Multi-factor Authentication can still be used (if set up on your Google account). \n"
+"Your website only requires permission to authenticate the user and obtain basic profile data - it can never have access to \n"
+"your emails and other data."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "And you will need a Google account to set up the plugin."
+msgstr ""
