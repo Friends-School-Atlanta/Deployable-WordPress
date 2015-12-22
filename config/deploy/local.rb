@@ -2,10 +2,10 @@
 # Setup Server
 ############################################
 
-set :stage, :staging
-set :stage_url, "http://staging.friendsschoolatlanta.org"
-server "67.227.201.200", user: "friendsschoolatb", roles: %w{web app db}
-set :deploy_to, "/home/friendsschoolatb/public_html/staging"
+set :stage, :local
+set :stage_url, "http://fsa.dev"
+server "192.168.50.4", user: "vagrant", roles: %w{web app db}
+set :deploy_to, "/srv/www/fsa/new_htdocs"
 
 ############################################
 # Setup Git
@@ -18,9 +18,9 @@ set :branch, "development"
 ############################################
 
 #specify extra ssh options:
-SSHKit.config.command_map[:git] = '/usr/local/cpanel/3rdparty/bin/git'
-SSHKit.config.command_map[:wp] = '/home/friendsschoolatb/wp'
-SSHKit.config.command_map[:find] = '/bin/find'
+SSHKit.config.command_map[:git] = '/usr/bin/git'
+SSHKit.config.command_map[:wp] = '/usr/local/bin/wp'
+SSHKit.config.command_map[:find] = '/usr/bin/find'
 
 #set :ssh_options, {
 #    auth_methods: %w(password),
@@ -29,4 +29,4 @@ SSHKit.config.command_map[:find] = '/bin/find'
 #}
 
 #specify a specific temp dir if user is jailed to home
-set :tmp_dir, "/home/friendsschoolatb/staging_deploy_tmp"
+# set :tmp_dir, "/home/friendsschoolatb/production_deploy_tmp"
