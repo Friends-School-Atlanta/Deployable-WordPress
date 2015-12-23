@@ -31,16 +31,22 @@
   color: #f6a704; }
 
 button.fsa-custom-cta {
-  background: #f6a704;
-  border: #f6a704; }
+  background-color: #f6a704;
+  border-color: #f6a704; }
   button.fsa-custom-cta :hover {
     border: 0px; }
 
-.front-page-2 .fsa-custom-heading {
+button {
+  background-color: #00aaad;
+  border-color: #00aaad; }
+
+.front-page-2 .fsa-custom-heading,
+.front-page-4 .fsa-custom-heading,
+.front-page-6 .fsa-custom-heading {
   color: #532c6e; }
 
 .front-page-3 {
-  background-blend-mode: saturation;
+  background-blend-mode: color-dodge;
   background-color: #00aaad; }
 
 .front-page-4 .featured-content .entry-title a {
@@ -50,9 +56,13 @@ button.fsa-custom-cta {
   background-color: #532c6e; }
 
 /* needs to be substituted for google web font */
+.front-page-1 .fsa-custom-heading,
 .front-page-2 .fsa-custom-heading,
+.front-page-3 .fsa-custom-heading,
 .front-page-4 .fsa-custom-heading,
-.front-page-6 .fsa-custom-heading {
+.front-page-5 .fsa-custom-heading,
+.front-page-6
+.front-page-7 .fsa-custom-heading {
   font-size: 3em; }
 
 .front-page-4 .featured-content .entry-header::after {

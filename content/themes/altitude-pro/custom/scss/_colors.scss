@@ -45,20 +45,26 @@ $textPrimary: #808285;
 
 //home page widgets
 button.fsa-custom-cta{
-    background: $secondaryColor;
-    border: $secondaryColor;
+    background-color: $secondaryColor;
+    border-color: $secondaryColor;
     :hover{
         border: 0px;
     }
 }
+button{
+    background-color: $tertiaryColor;
+    border-color: $tertiaryColor;
+}
 
-.front-page-2{
+.front-page-2,
+.front-page-4,
+.front-page-6{
     .fsa-custom-heading{
         color: $primaryColor;
     }
 }
 .front-page-3{
-    background-blend-mode: saturation;
+    background-blend-mode: color-dodge;
     background-color: $tertiaryColor;
 }
 .front-page-4{
