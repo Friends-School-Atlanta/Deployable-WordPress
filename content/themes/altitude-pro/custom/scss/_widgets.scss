@@ -45,12 +45,13 @@ $ballSize: 60px;
     ul.words{
             li{
                 padding: 0;
-                margin: 0 10px 0 5px;
-                color: $secondaryColor;
+                margin: 0;
             }
             li::after{
                 content: "|";
-                margin: 0
+                margin:  0 10px 0 5px;
+                color: $secondaryColor;
+                font-weight: 800;
             }
             li:last-child::after{
                 content: "";

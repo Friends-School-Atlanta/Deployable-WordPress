@@ -111,12 +111,13 @@ button {
 
 .fsa-custom-spices ul.words li {
   padding: 0;
-  margin: 0 10px 0 5px;
-  color: #f6a704; }
+  margin: 0; }
 
 .fsa-custom-spices ul.words li::after {
   content: "|";
-  margin: 0; }
+  margin: 0 10px 0 5px;
+  color: #f6a704;
+  font-weight: 800; }
 
 .fsa-custom-spices ul.words li:last-child::after {
   content: ""; }
