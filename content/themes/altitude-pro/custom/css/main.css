@@ -87,6 +87,29 @@ button {
 .front-page-2 .fsa-custom-heading {
   text-transform: uppercase; }
 
+.fsa-custom-spices ul.balls li, .fsa-custom-spices ul.words li {
+  display: inline-table; }
+
+.fsa-custom-spices ul.balls {
+  width: 80%;
+  padding: 10px 10%; }
+  .fsa-custom-spices ul.balls li {
+    width: 0;
+    margin: 0 5px 10px 0;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #f6a704;
+    padding: 30px 0 10px 0;
+    line-height: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 10px #777777; }
+  .fsa-custom-spices ul.balls ul.words li::after {
+    content: "|"; }
+
 .solid-section .featured-content {
   padding: 20px;
   box-shadow: 1px 1px 10px #cccccc; }
