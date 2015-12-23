@@ -31,16 +31,22 @@
   color: #f6a704; }
 
 button.fsa-custom-cta {
-  background: #f6a704;
-  border: #f6a704; }
+  background-color: #f6a704;
+  border-color: #f6a704; }
   button.fsa-custom-cta :hover {
     border: 0px; }
 
-.front-page-2 .fsa-custom-heading {
+button {
+  background-color: #00aaad;
+  border-color: #00aaad; }
+
+.front-page-2 .fsa-custom-heading,
+.front-page-4 .fsa-custom-heading,
+.front-page-6 .fsa-custom-heading {
   color: #532c6e; }
 
 .front-page-3 {
-  background-blend-mode: saturation;
+  background-blend-mode: color-dodge;
   background-color: #00aaad; }
 
 .front-page-4 .featured-content .entry-title a {
@@ -50,9 +56,13 @@ button.fsa-custom-cta {
   background-color: #532c6e; }
 
 /* needs to be substituted for google web font */
+.front-page-1 .fsa-custom-heading,
 .front-page-2 .fsa-custom-heading,
+.front-page-3 .fsa-custom-heading,
 .front-page-4 .fsa-custom-heading,
-.front-page-6 .fsa-custom-heading {
+.front-page-5 .fsa-custom-heading,
+.front-page-6
+.front-page-7 .fsa-custom-heading {
   font-size: 3em; }
 
 .front-page-4 .featured-content .entry-header::after {
@@ -76,6 +86,29 @@ button.fsa-custom-cta {
 
 .front-page-2 .fsa-custom-heading {
   text-transform: uppercase; }
+
+.fsa-custom-spices ul.balls li, .fsa-custom-spices ul.words li {
+  display: inline-table; }
+
+.fsa-custom-spices ul.balls {
+  width: 80%;
+  padding: 10px 10%; }
+  .fsa-custom-spices ul.balls li {
+    width: 0;
+    margin: 0 5px 10px 0;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: #f6a704;
+    padding: 30px 0 10px 0;
+    line-height: 0;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    box-shadow: 1px 1px 10px #777777; }
+  .fsa-custom-spices ul.balls ul.words li::after {
+    content: "|"; }
 
 .solid-section .featured-content {
   padding: 20px;
