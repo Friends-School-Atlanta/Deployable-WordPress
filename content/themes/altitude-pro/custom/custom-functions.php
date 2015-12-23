@@ -17,4 +17,9 @@ function fsa_allow_svg_mime( $mimes ) {
     $mimes['svg'] = 'image/svg+xml';
     return $mimes;
 }
-add_filter( 'upload_mimes', 'fsa_allow_svg_mime' );
+// temporarily removed since the crop failed anyway
+// add_filter( 'upload_mimes', 'fsa_allow_svg_mime' );
+
+
+// add our custom home page featured image size 4:3...
+add_image_size( array( __( 'Homepage Feature', 'fsa_custom'), 400, 300, false ) );
