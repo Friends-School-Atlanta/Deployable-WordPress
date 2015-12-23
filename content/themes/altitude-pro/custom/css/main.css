@@ -92,7 +92,8 @@ button {
 
 .fsa-custom-spices ul.balls {
   width: 80%;
-  padding: 10px 10%; }
+  padding: 10px 0;
+  margin: 0 auto; }
   .fsa-custom-spices ul.balls li {
     width: 0;
     margin: 0 5px 10px 0;
@@ -107,8 +108,15 @@ button {
     text-align: center;
     position: relative;
     box-shadow: 1px 1px 10px #777777; }
+  .fsa-custom-spices ul.balls ul.words li {
+    padding: 0;
+    margin: 0 10px 0 5px;
+    color: #f6a704; }
   .fsa-custom-spices ul.balls ul.words li::after {
-    content: "|"; }
+    content: "|";
+    margin: 0; }
+  .fsa-custom-spices ul.balls ul.words li:last-child::after {
+    content: ""; }
 
 .solid-section .featured-content {
   padding: 20px;

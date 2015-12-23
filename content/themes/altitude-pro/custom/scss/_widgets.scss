@@ -24,7 +24,8 @@ $ballSize: 60px;
     }
     ul.balls {
         width: 80%;
-        padding: 10px 10%;
+        padding: 10px 0;
+        margin: 0 auto;
         li{
             width: 0;
             margin: 0 5px 10px 0;
@@ -41,8 +42,17 @@ $ballSize: 60px;
             box-shadow: 1px 1px 10px #777777;
         }
         ul.words{
+            li{
+                padding: 0;
+                margin: 0 10px 0 5px;
+                color: $secondaryColor;
+            }
             li::after{
                 content: "|";
+                margin: 0
+            }
+            li:last-child::after{
+                content: "";
             }
         }
     }
