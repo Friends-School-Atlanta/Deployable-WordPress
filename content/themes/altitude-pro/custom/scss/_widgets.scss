@@ -47,12 +47,13 @@ $ballSize: 60px;
             li{
                 padding: 0;
                 margin: 0;
+                font-weight: 800;
             }
             li::after{
                 content: "|";
-                margin:  0 10px 0 5px;
+                margin:  0 10px;
                 color: $secondaryColor;
-                font-weight: 800;
+                font-weight: 100;
             }
             li:last-child::after{
                 content: "";
