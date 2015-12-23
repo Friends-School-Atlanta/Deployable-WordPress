@@ -22,4 +22,4 @@ function fsa_allow_svg_mime( $mimes ) {
 
 
 // add our custom home page featured image size 4:3...
-add_image_size( array( __( 'Homepage Feature', 'fsa_custom'), 400, 300, false ) );
+add_image_size( 'homepage-feature', 400, 300, false );
