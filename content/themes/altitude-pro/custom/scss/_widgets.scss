@@ -17,6 +17,7 @@ $secondaryColor: #f6a704; //orange
 
 $ballSize: 60px;
 .fsa-custom-spices{
+    padding: 0 0 20px 0;
     ul.balls, ul.words{
         li {
             display: inline-table;
@@ -32,7 +33,7 @@ $ballSize: 60px;
             border: 3px solid white;
             border-radius: 50%;
             background-color: $secondaryColor;
-            padding: $ballSize/2 0 10px 0;
+            padding: $ballSize/2 1px 10px 0;
             line-height: 0;
             width: $ballSize;
             height: $ballSize;
