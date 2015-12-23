@@ -108,15 +108,18 @@ button {
     text-align: center;
     position: relative;
     box-shadow: 1px 1px 10px #777777; }
-  .fsa-custom-spices ul.balls ul.words li {
-    padding: 0;
-    margin: 0 10px 0 5px;
-    color: #f6a704; }
-  .fsa-custom-spices ul.balls ul.words li::after {
-    content: "|";
-    margin: 0; }
-  .fsa-custom-spices ul.balls ul.words li:last-child::after {
-    content: ""; }
+
+.fsa-custom-spices ul.words li {
+  padding: 0;
+  margin: 0 10px 0 5px;
+  color: #f6a704; }
+
+.fsa-custom-spices ul.words li::after {
+  content: "|";
+  margin: 0; }
+
+.fsa-custom-spices ul.words li:last-child::after {
+  content: ""; }
 
 .solid-section .featured-content {
   padding: 20px;
