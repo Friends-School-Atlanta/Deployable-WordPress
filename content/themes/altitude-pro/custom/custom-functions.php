@@ -7,7 +7,7 @@ function fsa_register_styles() {
 add_action( 'wp_enqueue_scripts', 'fsa_register_styles' );
 
 function fsa_enqueue_styles() {
-    // wp_enqueue_style( 'fsa-custom' );
+    wp_enqueue_style( 'fsa-custom' );
 
 }
 add_action( 'wp_enqueue_scripts', 'fsa_enqueue_styles' );

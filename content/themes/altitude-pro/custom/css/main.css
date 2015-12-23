@@ -1,0 +1,38 @@
+/**
+* FSA Color Values
+* "Whiteish" #f6f6f6
+* Purple: #532c6e
+* Orange: #f6a704
+* Grey color: #808285
+**/
+.site-header.dark, .featured-section .site-header {
+  background: #f5f5f5; }
+
+.genesis-nav-menu a {
+  color: #808285; }
+
+.genesis-nav-menu .current_page_item a {
+  color: #532c6e; }
+
+.fsa-purple {
+  color: #532c6e; }
+
+.fsa-orange {
+  color: #f6a704; }
+
+button.fsa-custom-cta {
+  background: #f6a704;
+  border: #f6a704; }
+
+.site-footer {
+  background-color: #532c6e; }
+
+/* needs to be substituted for google web font */
+.genesis-nav-menu a {
+  font-family: Arial; }
+
+.fsa-custom-heading {
+  text-transform: uppercase; }
+
+.spices-letters {
+  text-transform: uppercase; }
