@@ -43,10 +43,28 @@ button.fsa-custom-cta {
   background-blend-mode: saturation;
   background-color: #00aaad; }
 
+.front-page-4 .featured-content .entry-title a {
+  color: #00aaad; }
+
 .site-footer {
   background-color: #532c6e; }
 
 /* needs to be substituted for google web font */
+.front-page-2 .fsa-custom-heading,
+.front-page-4 .fsa-custom-heading,
+.front-page-6 .fsa-custom-heading {
+  font-size: 3em; }
+
+.front-page-4 .featured-content .entry-header::after {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-color: #cccccc; }
+
+.front-page-4 .featured-content .entry-title {
+  margin-bottom: 0; }
+  .front-page-4 .featured-content .entry-title a {
+    font-size: 0.75em; }
+
 .genesis-nav-menu a {
   font-family: Arial; }
 
@@ -58,3 +76,7 @@ button.fsa-custom-cta {
 
 .front-page-2 .fsa-custom-heading {
   text-transform: uppercase; }
+
+.solid-section .featured-content {
+  padding: 20px;
+  box-shadow: 1px 1px 10px #cccccc; }

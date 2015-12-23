@@ -61,7 +61,13 @@ button.fsa-custom-cta{
     background-blend-mode: saturation;
     background-color: $tertiaryColor;
 }
-
+.front-page-4{
+    .featured-content{
+        .entry-title a{
+            color: $tertiaryColor;
+        }
+    }
+}
 
 
 //footer styles

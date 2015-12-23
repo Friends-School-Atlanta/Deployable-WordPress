@@ -1,3 +1,5 @@
+$shadowColor: #cccccc;
+
 .fsa-custom-heading{
     text-transform: uppercase;
 }
@@ -12,3 +14,7 @@
 }
 
 
+.solid-section .featured-content{
+    padding: 20px;
+    box-shadow: 1px 1px 10px $shadowColor;
+}
