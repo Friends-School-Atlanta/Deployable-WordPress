@@ -1,7 +1,29 @@
 $primaryFont: Arial;
 /* needs to be substituted for google web font */
 
+.front-page-2,
+.front-page-4,
+.front-page-6{
+    .fsa-custom-heading{
+        font-size: 3em;
+    }
+}
 
+.front-page-4{
+    .featured-content{
+        .entry-header::after{
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-color: #cccccc;
+        }
+        .entry-title{
+            margin-bottom: 0;
+            a{
+                font-size: 0.75em;
+            }
+        }
+    }
+}
 .genesis-nav-menu a {
     font-family: $primaryFont;
     // font-size:18px;
