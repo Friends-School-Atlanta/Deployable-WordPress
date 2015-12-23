@@ -1,8 +1,6 @@
 <?php
 
 //register our custom stylesheet, to be called last of course
-
-
 function fsa_register_styles() {
     wp_register_style( 'fsa-custom', get_stylesheet_directory_uri() . '/custom/css/main.css', array('altitude-pro-theme'), '001', 'screen');
 }
@@ -13,3 +11,10 @@ function fsa_enqueue_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'fsa_enqueue_styles' );
+
+//allow for svg mime type through uploads
+function fsa_allow_svg_mime( $mimes ) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter( 'upload_mimes', 'fsa_allow_svg_mime' );
