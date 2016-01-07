@@ -20,19 +20,20 @@ $textPrimary: #808285;
     background: $whiteish;
     color: $primaryColor;
 }
+.site-header{
+    .genesis-nav-menu .sub-menu a:hover,
+    .genesis-nav-menu .sub-menu li.current-menu-item > a,
+    .genesis-nav-menu .current-menu-item > a, {
+        background: $whiteish * 3;
+        color: $textPrimary;
+    }
 
-.genesis-nav-menu .sub-menu a:hover,
-.genesis-nav-menu .sub-menu li.current-menu-item > a,
-.genesis-nav-menu .current-menu-item > a, {
-    background: $whiteish * 3;
-    color: $textPrimary;
-}
-
-.genesis-nav-menu a {
-    color: $primaryColor;
-}
-.genesis-nav-menu .current_page_item > a {
-    color: $textPrimary;
+    .genesis-nav-menu a {
+        color: $primaryColor;
+    }
+    .genesis-nav-menu .current_page_item > a {
+        color: $textPrimary;
+    }
 }
 
 .fsa-purple{
