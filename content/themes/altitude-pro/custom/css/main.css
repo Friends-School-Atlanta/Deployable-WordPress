@@ -12,16 +12,16 @@
   background: #f5f5f5;
   color: #532c6e; }
 
-.genesis-nav-menu .sub-menu a:hover,
-.genesis-nav-menu .sub-menu li.current-menu-item > a,
-.genesis-nav-menu .current-menu-item > a {
+.site-header .genesis-nav-menu .sub-menu a:hover,
+.site-header .genesis-nav-menu .sub-menu li.current-menu-item > a,
+.site-header .genesis-nav-menu .current-menu-item > a {
   background: white;
   color: #808285; }
 
-.genesis-nav-menu a {
+.site-header .genesis-nav-menu a {
   color: #532c6e; }
 
-.genesis-nav-menu .current_page_item > a {
+.site-header .genesis-nav-menu .current_page_item > a {
   color: #808285; }
 
 .fsa-purple {
