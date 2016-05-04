@@ -39,6 +39,8 @@ $textPrimary: #808285;
 .nav-secondary{
         background: $whiteish * 3;
         border-bottom: $textPrimary;
+        margin-top: 76px;
+        text-align: center;
         a{
             color: $textPrimary;
         }
