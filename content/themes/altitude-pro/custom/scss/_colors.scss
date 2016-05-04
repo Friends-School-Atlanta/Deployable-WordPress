@@ -34,13 +34,15 @@ $textPrimary: #808285;
     .genesis-nav-menu .current_page_item > a {
         color: $textPrimary;
     }
-    .menu-secondary{
+}
+
+.menu-secondary{
         background: $textPrimary;
         a{
             color: $whiteish;
         }
-    }
 }
+
 
 .fsa-purple{
     color: $primaryColor;
