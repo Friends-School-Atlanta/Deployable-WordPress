@@ -27,4 +27,4 @@ add_image_size( 'homepage-blog-banner', 1200, 600, false );
 
 //* Reposition the secondary navigation menu (set in functions)
 remove_action( 'genesis_header', 'genesis_do_subnav' );
-add_action( 'genesis_after_header', 'genesis_do_subnav', 15 );
+add_action( 'genesis_header', 'genesis_do_subnav', 15 );
