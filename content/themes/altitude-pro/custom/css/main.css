@@ -36,6 +36,9 @@
   display: none;
   visibility: hidden; }
 
+.secondary-nav .site-inner {
+  margin-top: 75px; }
+
 .fsa-purple {
   color: #532c6e; }
 

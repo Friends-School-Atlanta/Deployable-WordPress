@@ -49,6 +49,9 @@ $textPrimary: #808285;
     display: none;
     visibility: hidden;
 }
+.secondary-nav .site-inner {
+    margin-top:75px;
+}
 
 .fsa-purple{
     color: $primaryColor;
@@ -95,3 +98,4 @@ button{
 .site-footer{
     background-color: $primaryColor;
 }
+
