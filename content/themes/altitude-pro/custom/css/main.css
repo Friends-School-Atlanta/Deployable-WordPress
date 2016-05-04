@@ -30,6 +30,10 @@
   .nav-secondary a {
     color: #808285; }
 
+.current-menu-item ul.sub-menu {
+  display: none;
+  visibility: hidden; }
+
 .fsa-purple {
   color: #532c6e; }
 
