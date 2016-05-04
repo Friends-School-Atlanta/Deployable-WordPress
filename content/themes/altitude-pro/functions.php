@@ -50,7 +50,7 @@ unregister_sidebar( 'header-right' );
 
 //* Reposition the primary navigation menu
 remove_action( 'genesis_after_header', 'genesis_do_nav' );
-add_action( 'genesis_header', 'genesis_do_nav', 12 );
+// add_action( 'genesis_header', 'genesis_do_nav', 12 );
 
 //* Remove output of primary navigation right extras
 remove_filter( 'genesis_nav_items', 'genesis_nav_right', 10, 2 );
@@ -58,7 +58,7 @@ remove_filter( 'wp_nav_menu_items', 'genesis_nav_right', 10, 2 );
 
 //* Reposition the secondary navigation menu
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
-add_action( 'genesis_header', 'genesis_do_subnav', 5 );
+// add_action( 'genesis_header', 'genesis_do_subnav', 5 );
 
 //* Add secondary-nav class if secondary navigation is used
 add_filter( 'body_class', 'altitude_secondary_nav_class' );
