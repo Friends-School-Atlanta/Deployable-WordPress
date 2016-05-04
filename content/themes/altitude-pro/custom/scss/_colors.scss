@@ -36,13 +36,17 @@ $textPrimary: #808285;
     }
 }
 
-.menu-secondary{
-        background: $textPrimary;
+.nav-secondary{
+        background: $whiteish * 3;
+        border-bottom: $textPrimary;
         a{
-            color: $whiteish;
+            color: $textPrimary;
         }
 }
-
+.current-menu-item ul.sub-menu {
+    display: none;
+    visibility: hidden;
+}
 
 .fsa-purple{
     color: $primaryColor;

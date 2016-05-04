@@ -24,10 +24,11 @@
 .site-header .genesis-nav-menu .current_page_item > a {
   color: #808285; }
 
-.menu-secondary {
-  background: #808285; }
-  .menu-secondary a {
-    color: #f5f5f5; }
+.nav-secondary {
+  background: white;
+  border-bottom: #808285; }
+  .nav-secondary a {
+    color: #808285; }
 
 .fsa-purple {
   color: #532c6e; }
