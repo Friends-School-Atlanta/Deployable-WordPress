@@ -1,6 +1,67 @@
+$shadowColor: #cccccc;
+$secondaryColor: #f6a704; //orange
+//find a better way of including the vars later...
+
 .fsa-custom-heading{
     text-transform: uppercase;
 }
 .spices-letters{
     text-transform: uppercase;
+}
+
+.front-page-2{
+    .fsa-custom-heading{
+        text-transform: uppercase;
+    }
+}
+
+$ballSize: 60px;
+.fsa-custom-spices{
+    padding: 0 0 20px 0;
+    ul.balls, ul.words{
+        li {
+            display: inline-table;
+        }
+    }
+    ul.balls {
+        width: 80%;
+        padding: 10px 0;
+        margin: 0 auto;
+        li{
+            width: 0;
+            margin: 0 5px 10px 0;
+            border: 3px solid white;
+            border-radius: 50%;
+            background-color: $secondaryColor;
+            padding: $ballSize/2 1px 10px 0;
+            line-height: 0;
+            width: $ballSize;
+            height: $ballSize;
+            font-size: 40px;
+            text-align: center;
+            position: relative;
+            box-shadow: 1px 1px 10px #777777;
+        }
+    }
+    ul.words{
+            li{
+                padding: 0;
+                margin: 0;
+                font-weight: 800;
+            }
+            li::after{
+                content: "|";
+                margin:  0 10px;
+                color: $secondaryColor;
+                font-weight: 100;
+            }
+            li:last-child::after{
+                content: "";
+            }
+        }
+}
+
+.solid-section .featured-content{
+    padding: 20px;
+    box-shadow: 1px 1px 10px $shadowColor;
 }

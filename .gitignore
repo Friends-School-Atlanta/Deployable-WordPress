@@ -24,6 +24,8 @@ content/upgrade/*
 content/cache/*
 content/backup/*
 wp-config.php
+shared
+content/uploads
 
 # Misc #
 ###################
@@ -31,3 +33,4 @@ wp-config.php
 _assets
 node_modules
 ai-cache/*
+

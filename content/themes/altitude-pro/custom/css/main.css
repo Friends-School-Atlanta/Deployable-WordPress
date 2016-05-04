@@ -4,15 +4,25 @@
 * Purple: #532c6e
 * Orange: #f6a704
 * Grey color: #808285
+* Turquoise: #00aaad;
 **/
-.site-header.dark, .featured-section .site-header {
-  background: #f5f5f5; }
+.site-header, .site-header.dark,
+.featured-section .site-header,
+.site-header .sub-menu a {
+  background: #f5f5f5;
+  color: #532c6e; }
 
-.genesis-nav-menu a {
+.site-header .genesis-nav-menu .sub-menu a:hover,
+.site-header .genesis-nav-menu .sub-menu li.current-menu-item > a,
+.site-header .genesis-nav-menu .current-menu-item > a {
+  background: white;
   color: #808285; }
 
-.genesis-nav-menu .current_page_item a {
+.site-header .genesis-nav-menu a {
   color: #532c6e; }
+
+.site-header .genesis-nav-menu .current_page_item > a {
+  color: #808285; }
 
 .fsa-purple {
   color: #532c6e; }
@@ -21,19 +31,96 @@
   color: #f6a704; }
 
 button.fsa-custom-cta {
-  background: #f6a704;
-  border: #f6a704; }
+  background-color: #f6a704;
+  border-color: #f6a704; }
+  button.fsa-custom-cta :hover {
+    border: 0px; }
+
+button {
+  background-color: #00aaad;
+  border-color: #00aaad; }
+
+.front-page-2 .fsa-custom-heading,
+.front-page-4 .fsa-custom-heading,
+.front-page-6 .fsa-custom-heading {
+  color: #532c6e; }
+
+.front-page-3 {
+  background-blend-mode: color-dodge;
+  background-color: #00aaad; }
+
+.front-page-4 .featured-content .entry-title a {
+  color: #00aaad; }
 
 .site-footer {
   background-color: #532c6e; }
 
 /* needs to be substituted for google web font */
+.front-page-1 .fsa-custom-heading,
+.front-page-2 .fsa-custom-heading,
+.front-page-3 .fsa-custom-heading,
+.front-page-4 .fsa-custom-heading,
+.front-page-5 .fsa-custom-heading,
+.front-page-6
+.front-page-7 .fsa-custom-heading {
+  font-size: 3em; }
+
+.front-page-4 .featured-content .entry-header::after {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-color: #cccccc; }
+
+.front-page-4 .featured-content .entry-title {
+  margin-bottom: 0; }
+  .front-page-4 .featured-content .entry-title a {
+    font-size: 0.75em; }
+
 .genesis-nav-menu a {
-  font-family: Arial;
-  font-size: 18px; }
+  font-family: Arial; }
 
 .fsa-custom-heading {
   text-transform: uppercase; }
 
 .spices-letters {
   text-transform: uppercase; }
+
+.front-page-2 .fsa-custom-heading {
+  text-transform: uppercase; }
+
+.fsa-custom-spices {
+  padding: 0 0 20px 0; }
+  .fsa-custom-spices ul.balls li, .fsa-custom-spices ul.words li {
+    display: inline-table; }
+  .fsa-custom-spices ul.balls {
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto; }
+    .fsa-custom-spices ul.balls li {
+      width: 0;
+      margin: 0 5px 10px 0;
+      border: 3px solid white;
+      border-radius: 50%;
+      background-color: #f6a704;
+      padding: 30px 1px 10px 0;
+      line-height: 0;
+      width: 60px;
+      height: 60px;
+      font-size: 40px;
+      text-align: center;
+      position: relative;
+      box-shadow: 1px 1px 10px #777777; }
+  .fsa-custom-spices ul.words li {
+    padding: 0;
+    margin: 0;
+    font-weight: 800; }
+  .fsa-custom-spices ul.words li::after {
+    content: "|";
+    margin: 0 10px;
+    color: #f6a704;
+    font-weight: 100; }
+  .fsa-custom-spices ul.words li:last-child::after {
+    content: ""; }
+
+.solid-section .featured-content {
+  padding: 20px;
+  box-shadow: 1px 1px 10px #cccccc; }

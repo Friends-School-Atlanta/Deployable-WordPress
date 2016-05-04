@@ -4,21 +4,36 @@
 * Purple: #532c6e
 * Orange: #f6a704
 * Grey color: #808285
+* Turquoise: #00aaad;
 **/
 
 $whiteish: #f5f5f5;
 $primaryColor: #532c6e; //purple
 $secondaryColor: #f6a704; //orange
+$tertiaryColor: #00aaad; //turquoise
 $textPrimary: #808285;
 
 // header styles
-.site-header.dark, .featured-section .site-header  { background: $whiteish;  }
-
-.genesis-nav-menu a {
-    color: $textPrimary;
-}
-.genesis-nav-menu .current_page_item a {
+.site-header, .site-header.dark,
+.featured-section .site-header,
+.site-header .sub-menu a  {
+    background: $whiteish;
     color: $primaryColor;
+}
+.site-header{
+    .genesis-nav-menu .sub-menu a:hover,
+    .genesis-nav-menu .sub-menu li.current-menu-item > a,
+    .genesis-nav-menu .current-menu-item > a, {
+        background: $whiteish * 3;
+        color: $textPrimary;
+    }
+
+    .genesis-nav-menu a {
+        color: $primaryColor;
+    }
+    .genesis-nav-menu .current_page_item > a {
+        color: $textPrimary;
+    }
 }
 
 .fsa-purple{
@@ -31,9 +46,36 @@ $textPrimary: #808285;
 
 //home page widgets
 button.fsa-custom-cta{
-    background: $secondaryColor;
-    border: $secondaryColor;
+    background-color: $secondaryColor;
+    border-color: $secondaryColor;
+    :hover{
+        border: 0px;
+    }
 }
+button{
+    background-color: $tertiaryColor;
+    border-color: $tertiaryColor;
+}
+
+.front-page-2,
+.front-page-4,
+.front-page-6{
+    .fsa-custom-heading{
+        color: $primaryColor;
+    }
+}
+.front-page-3{
+    background-blend-mode: color-dodge;
+    background-color: $tertiaryColor;
+}
+.front-page-4{
+    .featured-content{
+        .entry-title a{
+            color: $tertiaryColor;
+        }
+    }
+}
+
 
 //footer styles
 .site-footer{
