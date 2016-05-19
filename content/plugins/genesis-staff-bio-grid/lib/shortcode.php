@@ -22,8 +22,8 @@ function sbg_add_main_shortcode( $atts ) {
 	// define query parameters based on attributes
 	$options = array(
 	    'post_type' => 'staff-member',
-	    'order' => $order,
-	    'orderby' => $orderby,
+	    'order' => $atts['order'],
+	    'orderby' => $atts['orderby'],
 	    'posts_per_page' => $posts,
 	    'staff-position' => $position,
 	);
