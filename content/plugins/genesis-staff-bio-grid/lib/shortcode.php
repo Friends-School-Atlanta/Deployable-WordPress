@@ -13,10 +13,12 @@ function sbg_add_main_shortcode( $atts ) {
 	        'lightboxheight' => '300',
 	        'lightboxwidth' => '600',
 	        'displayposition' => 'true',
+	        'order' => 'ASC',
+	        'orderby' => 'title',
 		),
 		$atts
 	) );
-	
+
 	// define query parameters based on attributes
 	$options = array(
 	    'post_type' => 'staff-member',
@@ -25,20 +27,20 @@ function sbg_add_main_shortcode( $atts ) {
 	    'posts_per_page' => $posts,
 	    'staff-position' => $position,
 	);
-	
+
 	$custom_query = new WP_Query( $options );
-	
+
 	$numberofcolumns = $columns;
 	$column_classes = array( '', '', 'one-half', 'one-third', 'one-fourth', 'one-fifth', 'one-sixth' );
 	$classes[] = $column_classes[$numberofcolumns];
 
 	while( $custom_query->have_posts() ) {
 		$custom_query->the_post();
-			
+
 		// add 'first' to the array containing the classes if this is the first item overall or if the current item number divided by the number of columns has a remainder of 0
 		if ( 0 == $custom_query->current_post || 0 == $custom_query->current_post % $numberofcolumns ) {
 			$classes[] = 'first';
-		} 
+		}
 
 		// if the above condition isn't true, then we remove 'first' from the array of classes
 		else {
@@ -50,11 +52,11 @@ function sbg_add_main_shortcode( $atts ) {
 		echo '<article ';
 		post_class( $classes, $custom_query->post->ID);
 		echo '>';
-			
+
 			echo '<div class="staff-featured-image">';
 				add_thickbox();
 				echo '<a title="' . get_the_title( $custom_query->post->ID ) . '"';
-				
+
 				// this is the default behavior, and it is also used if linkto="lightbox"
 				if ( $linkto == 'lightbox') {
 					echo 'class="thickbox" href="#TB_inline?height=' . $lightboxheight . '&width=' . $lightboxwidth . '&inlineId=thestaffcontent' . $custom_query->post->ID . '">';
@@ -83,8 +85,8 @@ function sbg_add_main_shortcode( $atts ) {
 
 			echo '<div style="display:none;" id="thestaffcontent' . ($custom_query->post->ID) . '">';
 
-				the_content( $custom_query->post->ID ); 
-				
+				the_content( $custom_query->post->ID );
+
 			echo '</div>';
 			echo '<div class="title-meta">';
 				echo '<h2 class="entry-title">';
@@ -94,7 +96,7 @@ function sbg_add_main_shortcode( $atts ) {
 					if ( $linkto == 'lightbox') {
 						echo 'class="thickbox" href="#TB_inline?height=' . $lightboxheight . '&width=' . $lightboxwidth . '&inlineId=thestaffcontent' . $custom_query->post->ID . '">';
 					}
-					
+
 					// this is the behavior if linkto="single" (it links to the single version)
 					elseif ( $linkto == 'single' ) {
 						echo ' href="' . get_the_permalink( $custom_query->post->ID ) . '">';
@@ -116,7 +118,7 @@ function sbg_add_main_shortcode( $atts ) {
 						}
 					}
 				}
-				
+
 				if ( $displayposition == 'linked' )
 				genesis_post_meta( $custom_query->post->ID );
 
