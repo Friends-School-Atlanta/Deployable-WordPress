@@ -4,6 +4,9 @@ This is our production WordPress application, complete with capistrano deploymen
 
 ### Release History
 
+```1.0.1```
+Adds Google Analytics
+
 ```1.0.0```
 The stable release including redirection and seo plugins
 
