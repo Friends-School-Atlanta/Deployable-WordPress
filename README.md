@@ -3,6 +3,10 @@
 This is our production WordPress application, complete with capistrano deployments :)
 
 ### Release History
+
+```1.0.0```
+The stable release including redirection and seo plugins
+
 ```0.2.7```
 Final version release candidate
 
