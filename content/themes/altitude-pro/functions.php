@@ -19,9 +19,6 @@ define( 'CHILD_THEME_NAME', 'Altitude Pro Theme' );
 define( 'CHILD_THEME_URL', 'http://my.studiopress.com/themes/altitude/' );
 define( 'CHILD_THEME_VERSION', '1.0.2' );
 
-//* Add our "customizations" file
-include_once( get_stylesheet_directory() . '/custom/custom-functions.php' );
-
 //* Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'altitude_enqueue_scripts_styles' );
 function altitude_enqueue_scripts_styles() {
@@ -61,7 +58,7 @@ remove_filter( 'wp_nav_menu_items', 'genesis_nav_right', 10, 2 );
 
 //* Reposition the secondary navigation menu
 remove_action( 'genesis_after_header', 'genesis_do_subnav' );
-add_action( 'genesis_header', 'genesis_do_subnav', 5 );
+// add_action( 'genesis_header', 'genesis_do_subnav', 5 );
 
 //* Add secondary-nav class if secondary navigation is used
 add_filter( 'body_class', 'altitude_secondary_nav_class' );
@@ -245,3 +242,7 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Front Page 7', 'altitude' ),
 	'description' => __( 'This is the front page 7 section.', 'altitude' ),
 ) );
+
+//* Add our "customizations" file
+include_once( get_stylesheet_directory() . '/custom/custom-functions.php' );
+

@@ -36,6 +36,19 @@ $textPrimary: #808285;
     }
 }
 
+.nav-secondary{
+        background: $whiteish * 3;
+        border-bottom: $textPrimary;
+        margin-top: 76px;
+        text-align: center;
+        a{
+            color: $textPrimary;
+        }
+}
+.secondary-nav .site-inner {
+    margin-top:75px;
+}
+
 .fsa-purple{
     color: $primaryColor;
 }
@@ -81,3 +94,4 @@ button{
 .site-footer{
     background-color: $primaryColor;
 }
+
