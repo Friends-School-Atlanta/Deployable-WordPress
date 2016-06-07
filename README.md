@@ -3,6 +3,8 @@
 This is our production WordPress application, complete with capistrano deployments :)
 
 ### Release History
+```0.2.7```
+Final version release candidate
 
 ```0.2.6```
 Adds Google Calendar sync capability
