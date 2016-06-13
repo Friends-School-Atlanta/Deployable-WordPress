@@ -19,8 +19,14 @@ set :branch, "development"
 
 #specify extra ssh options:
 SSHKit.config.command_map[:git] = '/usr/local/cpanel/3rdparty/bin/git'
-SSHKit.config.command_map[:wp] = '/home/friendsschoolatb/wp'
-SSHKit.config.command_map[:db] = '/home/friendsschoolatb/wp'
+#SSHKit.config.command_map[:wp] = '/home/friendsschoolatb/wp-cli.phar'
+#SSHKit.config.command_map[:db] = '/home/friendsschoolatb/wp-cli.phar'
+SSHKit.config.command_map[:wp] = '/home/friendsschoolatb/bin/wp-cli.phar'
+SSHKit.config.command_map[:db] = '/home/friendsschoolatb/bin/wp-cli.phar'
+
+#SSHKit.config.command_map[:db] = '/usr/local/bin/wp'
+#SSHKit.config.command_map[:wp] = "php-cli /home/friendsschoolatb/bin/wp-cli.phar"
+
 SSHKit.config.command_map[:find] = '/bin/find'
 
 #set :ssh_options, {
