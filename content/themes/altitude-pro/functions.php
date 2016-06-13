@@ -36,6 +36,9 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
 
+//* Add viewport meta tag for mobile browsers
+add_theme_support( 'post-formats' );
+
 //* Add new image sizes
 add_image_size( 'featured-page', 1140, 400, TRUE );
 
