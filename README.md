@@ -4,6 +4,10 @@ This is our production WordPress application, complete with capistrano deploymen
 
 ### Release History
 
+```1.1.0```
+The June 13th release candidate
+
+
 ```1.0.1```
 Adds Google Analytics
 
