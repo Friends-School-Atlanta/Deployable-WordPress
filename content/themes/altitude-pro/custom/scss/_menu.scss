@@ -1,3 +1,15 @@
-.site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu {
-    display: block;
+$primaryColor: #532c6e; //purple
+@media only screen  {
+
+    .site-header .genesis-nav-menu.responsive-menu {
+        .current-menu-item > a,
+        .sub-menu li a,
+        .sub-menu li a:hover,
+        .sub-menu,
+        li:hover > a,
+        a:hover {
+            color: $primaryColor;
+        }
+    }
+
 }

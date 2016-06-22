@@ -34,13 +34,15 @@ $textPrimary: #808285;
     .genesis-nav-menu .current_page_item > a {
         color: $textPrimary;
     }
-    .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a{
+    .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
         color: $primaryColor;
     }
 }
+
 @media screen{
     .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
         color: $primaryColor;
+        display: block;
     }
 }
 

@@ -29,7 +29,8 @@
 
 @media screen {
   .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
-    color: #532c6e; } }
+    color: #532c6e;
+    display: block; } }
 
 .nav-secondary {
   background: white;
@@ -143,5 +144,11 @@ button {
   padding: 20px;
   box-shadow: 1px 1px 10px #cccccc; }
 
-.site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu {
-  display: block; }
+@media only screen {
+  .site-header .genesis-nav-menu.responsive-menu .current-menu-item > a,
+  .site-header .genesis-nav-menu.responsive-menu .sub-menu li a,
+  .site-header .genesis-nav-menu.responsive-menu .sub-menu li a:hover,
+  .site-header .genesis-nav-menu.responsive-menu .sub-menu,
+  .site-header .genesis-nav-menu.responsive-menu li:hover > a,
+  .site-header .genesis-nav-menu.responsive-menu a:hover {
+    color: #532c6e; } }
