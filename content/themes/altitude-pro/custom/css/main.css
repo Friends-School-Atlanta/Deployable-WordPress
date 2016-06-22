@@ -24,6 +24,9 @@
 .site-header .genesis-nav-menu .current_page_item > a {
   color: #808285; }
 
+.site-header .site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu a {
+  color: #532c6e; }
+
 .nav-secondary {
   background: white;
   border-bottom: #808285;
@@ -135,3 +138,6 @@ button {
 .solid-section .featured-content {
   padding: 20px;
   box-shadow: 1px 1px 10px #cccccc; }
+
+.site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu {
+  display: block; }
