@@ -38,7 +38,7 @@ $textPrimary: #808285;
         color: $primaryColor;
     }
 }
-@media only screen{
+@media screen{
     genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
         color: $primaryColor;
     }
