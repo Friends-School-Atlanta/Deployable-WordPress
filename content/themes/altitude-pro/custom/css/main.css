@@ -150,5 +150,7 @@ button {
   .site-header .genesis-nav-menu.responsive-menu .sub-menu li a:hover,
   .site-header .genesis-nav-menu.responsive-menu .sub-menu,
   .site-header .genesis-nav-menu.responsive-menu li:hover > a,
+  .site-header .genesis-nav-menu.responsive-menu > .menu-item-has-children:before,
   .site-header .genesis-nav-menu.responsive-menu a:hover {
-    color: #532c6e; } }
+    color: #532c6e;
+    display: block; } }
