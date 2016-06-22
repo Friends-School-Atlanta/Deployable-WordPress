@@ -28,7 +28,7 @@
   color: #532c6e; }
 
 @media screen {
-  genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
+  .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
     color: #532c6e; } }
 
 .nav-secondary {

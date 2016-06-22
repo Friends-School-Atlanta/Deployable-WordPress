@@ -39,7 +39,7 @@ $textPrimary: #808285;
     }
 }
 @media screen{
-    genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
+    .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
         color: $primaryColor;
     }
 }
