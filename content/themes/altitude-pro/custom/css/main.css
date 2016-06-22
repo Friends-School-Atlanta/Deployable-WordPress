@@ -24,6 +24,14 @@
 .site-header .genesis-nav-menu .current_page_item > a {
   color: #808285; }
 
+.site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
+  color: #532c6e; }
+
+@media screen {
+  .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
+    color: #532c6e;
+    display: block; } }
+
 .nav-secondary {
   background: white;
   border-bottom: #808285;
@@ -135,3 +143,14 @@ button {
 .solid-section .featured-content {
   padding: 20px;
   box-shadow: 1px 1px 10px #cccccc; }
+
+@media only screen {
+  .site-header .genesis-nav-menu.responsive-menu .current-menu-item > a,
+  .site-header .genesis-nav-menu.responsive-menu .sub-menu li a,
+  .site-header .genesis-nav-menu.responsive-menu .sub-menu li a:hover,
+  .site-header .genesis-nav-menu.responsive-menu .sub-menu,
+  .site-header .genesis-nav-menu.responsive-menu li:hover > a,
+  .site-header .genesis-nav-menu.responsive-menu > .menu-item-has-children:before,
+  .site-header .genesis-nav-menu.responsive-menu a:hover {
+    color: #532c6e;
+    display: block; } }
