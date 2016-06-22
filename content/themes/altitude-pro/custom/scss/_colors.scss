@@ -38,6 +38,11 @@ $textPrimary: #808285;
         color: $primaryColor;
     }
 }
+@media only screen{
+    genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
+        color: $primaryColor;
+    }
+}
 
 .nav-secondary{
         background: $whiteish * 3;

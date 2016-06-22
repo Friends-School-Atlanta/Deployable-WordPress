@@ -27,6 +27,10 @@
 .site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
   color: #532c6e; }
 
+@media only screen {
+  genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu > a {
+    color: #532c6e; } }
+
 .nav-secondary {
   background: white;
   border-bottom: #808285;
