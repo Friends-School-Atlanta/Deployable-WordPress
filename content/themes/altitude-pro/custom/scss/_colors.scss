@@ -34,6 +34,9 @@ $textPrimary: #808285;
     .genesis-nav-menu .current_page_item > a {
         color: $textPrimary;
     }
+    .site-header .genesis-nav-menu.responsive-menu > .current-menu-item > .sub-menu a{
+        color: $primaryColor;
+    }
 }
 
 .nav-secondary{
